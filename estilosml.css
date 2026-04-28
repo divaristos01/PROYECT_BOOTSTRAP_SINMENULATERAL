@@ -1,0 +1,99 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    margin: 0;
+}
+
+main {
+    min-height: 480px;
+    background-color: #006ea4;
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer {
+    border-top: 0.1px solid white;
+    min-height: 110px;
+    background-color: #006ea4;
+    color: white;
+}
+
+#logotipo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+nav.navbar-custom {
+    height: 80px;
+    background-color: #006ea4;
+    padding: 10px 0;
+    border-bottom: 0.1px solid white;
+}
+
+nav.navbar-custom ul {
+    height: 100%;
+}
+
+nav.navbar-custom .nav-item {
+    border: 1px solid white;
+    margin: 0 25px;
+}
+
+nav.navbar-custom .nav-link {
+    color: black;
+    background-color: aliceblue;
+    height: 100%;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+main h2, main h3 {
+    color: black;
+    text-decoration: underline;
+}
+
+main b {
+    color: black;
+}
+
+#bloque {
+    border: 2px solid white;
+}
+
+main ul {
+    line-height: 1.6;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+#grande {
+    flex-grow: 4;
+}
+
+#volver {
+    order: -1;
+    flex: 0 0 100px;
+    margin-right: 25px;
+    background-color: white;
+}
+
+#volver a {
+    font-size: 1em;
+}

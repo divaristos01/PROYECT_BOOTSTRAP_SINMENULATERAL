@@ -1,0 +1,177 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    margin: 0;
+}
+
+main {
+    height: 480px;
+    background-color: #006ea4;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+aside {
+    width: 35.71%;
+    background-color: #006ea4;
+}
+
+section {
+    background-color: aliceblue;
+    color: black;
+    width: 64.28571428571429%;
+}
+
+footer {
+    border-top: 0.1px solid white;
+    min-height: 110px;
+    background-color: #006ea4;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+#logotipo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+nav.navbar-custom {
+    height: 60px;
+    background-color: #006ea4;
+    padding: 10px 0;
+    border-bottom: 0.1px solid white;
+}
+
+nav.navbar-custom ul {
+    height: 100%;
+}
+
+nav.navbar-custom .nav-item {
+    border: 1px solid white;
+    margin: 0 25px;
+}
+
+nav.navbar-custom .nav-link {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+nav.navbar-custom .nav-link:hover {
+    background-color: aliceblue;
+    transition-duration: 2s;
+}
+
+#volver {
+    flex: 0 0 100px;
+    margin-right: 25px;
+    background-color: white;
+}
+
+#volver a {
+    font-size: 1.5em;
+}
+
+.dropdown-menu {
+    background-color: white;
+    border: 1px solid #006ea4;
+    padding: 0;
+    width: 100%;
+}
+
+.dropdown-item {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    transition-duration: 2s;
+}
+
+aside li {
+    border: 1px solid white;
+}
+
+aside li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+aside li a:hover {
+    background-color: aliceblue;
+    color: black;
+    transition-duration: 2s;
+}
+
+.activo {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#bloques {
+    border: 1px solid #006ea4;
+    padding: 0 15px 15px;
+    width: 90%;
+    color: #006ea4;
+    font-size: 1.3rem;
+}
+
+#bloques li {
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+#bloques ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    padding: 15px;
+    gap: 10px;
+}
+
+#bloque {
+    border: 1px solid #006ea4;
+    padding: 0 15px;
+    width: 90%;
+    color: #006ea4;
+    font-size: 1rem;
+}
+
+#bloque li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
