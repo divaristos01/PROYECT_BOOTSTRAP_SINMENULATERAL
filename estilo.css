@@ -7,7 +7,6 @@ body {
 
 header {
     height: 100px;
-    margin: 0;
 }
 
 main {
@@ -84,6 +83,17 @@ nav.navbar-custom .nav-link:hover {
     padding: 0;
 }
 
+#bloque {
+    border: 1px solid #006ea4;
+    color: #006ea4;
+    font-size: 1rem;
+}
+
+#bloque li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
 #infos {
     display: flex;
     justify-content: center;
@@ -107,26 +117,4 @@ nav.navbar-custom .nav-link:hover {
 #bloques ul {
     list-style: disc;
     padding-left: 20px;
-}
-
-#info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: start;
-    padding: 15px;
-    gap: 10px;
-}
-
-#bloque {
-    border: 1px solid #006ea4;
-    padding: 0 15px;
-    width: 90%;
-    color: #006ea4;
-    font-size: 1rem;
-}
-
-#bloque li {
-    margin-bottom: 15px;
-    line-height: 1.5;
 }
